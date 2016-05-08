@@ -1,0 +1,19 @@
+var CounterComponent = React.createClass({
+    getInitialState: function() {
+        return { counter: 0 };
+    },
+    render: function() {
+        return <div>
+            Count: {this.state.counter}<br/>
+            <button>{this.props.text}</button>
+        </div>;
+    },
+    onCount: function() {
+        this.setState({ counter: this.state.counter + 1 });
+    }
+});
+
+ReactDOM.render(
+    <CounterComponent text="Count!" />,
+    document.getElementById("container")
+);

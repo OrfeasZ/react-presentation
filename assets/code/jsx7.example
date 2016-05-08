@@ -1,0 +1,4 @@
+<SomeComponent key={{ innerKey: 'value' }}>
+  <OtherComponent otherKey={true} />
+  <OtherComponent />
+</SomeComponent>

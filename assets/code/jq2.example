@@ -1,0 +1,5 @@
+var count = 0;
+$("#count").on("click", function() {
+    ++count;
+    $("#counter").text(count);
+});

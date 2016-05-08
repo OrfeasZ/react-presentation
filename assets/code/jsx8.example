@@ -1,0 +1,6 @@
+React.createElement(
+  SomeComponent,
+  { key: { innerKey: 'value' } },
+  React.createElement(OtherComponent, { otherKey: true }),
+  React.createElement(OtherComponent, null)
+);

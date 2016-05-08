@@ -1,0 +1,2 @@
+Count: <span id="counter">0</span><br/>
+<button id="count">Count!</button>

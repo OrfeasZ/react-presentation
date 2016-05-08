@@ -1,0 +1,11 @@
+<Slide align="center top">
+    <Heading size={4} textColor="white">
+        Better Example?
+    </Heading>
+
+    <Heading size={2} textColor="white">
+        This Presentation!
+    </Heading>
+
+    <CodePane textSize="24" margin="5% 0 0 0" lang="jsx" source={require("raw!./Slide12.js")} />
+</Slide>
