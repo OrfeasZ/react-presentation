@@ -1,0 +1,54 @@
+body, html {
+    color: #fff;
+}
+
+textarea.code-editor {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    padding: 1em;
+    background: #2d2d2d;
+    color: #ccc;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    border: 0;
+    resize: none;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+iframe.code-frame {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    background: #2d2d2d;
+    color: #ccc;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: center;
+    font-size: 24px;
+    border: 0;
+    resize: none;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
