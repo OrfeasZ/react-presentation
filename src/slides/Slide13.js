@@ -35,7 +35,7 @@ export default function(images) {
                         This Presentation!
                     </Heading>
 
-                    <CodePane textSize="24" margin="5% 0 0 0" lang="jsx" source={require("raw!../../assets/code/slide.example")} />
+                    <CodePane style={{ overflow: 'hidden' }} textSize="24" margin="5% 0 0 0" lang="jsx" source={require("raw!../../assets/code/slide.example")} />
                 </div>
             </Appear>
         </Slide>
